@@ -1,0 +1,33 @@
+#circle {
+  display: block;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.quarter {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  transition: all .3s ease;
+}
+#q1 {
+  background-color: green;
+}
+#q2 {
+  background-color: red;
+}
+#q3 {
+  background-color: yellow;
+}
+#q4 {
+  background-color: blue;
+}
+#q1.playing, #q2.playing, #q3.playing, #q4.playing {
+  background-color: white;
+}
